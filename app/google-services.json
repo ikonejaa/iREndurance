@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "536602400542",
+    "firebase_url": "https://iracingai-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "iracingai",
+    "storage_bucket": "iracingai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536602400542:android:982bdb48ac80ac30209b0f",
+        "android_client_info": {
+          "package_name": "com.iracingkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536602400542-aebrcqh1f79gr0tjahtrdoifjmto9194.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu3iHp7mg9L8VsmP9LXBHWOsdpzKKb_Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536602400542-aebrcqh1f79gr0tjahtrdoifjmto9194.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536602400542:android:e5db53aa1a144ffb209b0f",
+        "android_client_info": {
+          "package_name": "com.iracingui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536602400542-aebrcqh1f79gr0tjahtrdoifjmto9194.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu3iHp7mg9L8VsmP9LXBHWOsdpzKKb_Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536602400542-aebrcqh1f79gr0tjahtrdoifjmto9194.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536602400542:android:d09b93f0cd905203209b0f",
+        "android_client_info": {
+          "package_name": "com.irkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536602400542-aebrcqh1f79gr0tjahtrdoifjmto9194.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu3iHp7mg9L8VsmP9LXBHWOsdpzKKb_Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536602400542-aebrcqh1f79gr0tjahtrdoifjmto9194.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
