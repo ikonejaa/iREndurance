@@ -14,23 +14,28 @@ import com.google.firebase.database.*
 import com.irkotlin.ui.theme.DarkGrey
 import org.w3c.dom.Text
 import androidx.compose.ui.Modifier
+import com.irkotlin.ui.theme.BrightBlue2
+import com.irkotlin.ui.theme.BrightWhite
 
 
 @Composable
-fun HomeScreen() {
+fun HomeScreen(eventID: String) {
     Box(modifier = Modifier
         .background(DarkGrey)
         .fillMaxSize()
     ) {
+        
         Column {
+            Text(text = "Your Event ID: $eventID")
             RaceInfoSection()
-            CurrentPosition()
+            CurrentPosition(eventID = String())
         }
 
 
     }
 
 }
+
 
 @Composable
 fun RaceInfoSection(
@@ -47,7 +52,8 @@ fun RaceInfoSection(
     ) {
         Text(
             text = "Race Info",
-            style = MaterialTheme.typography.h1
+            color = BrightWhite,
+            style = MaterialTheme.typography.h3
 
         )
     }
@@ -57,9 +63,9 @@ fun RaceInfoSection(
 
 
 @Composable
-fun CurrentPosition() {
+fun CurrentPosition(eventID: String) {
     val database = FirebaseDatabase.getInstance("https://iracingai-default-rtdb.europe-west1.firebasedatabase.app/")
-    val currentPositionRef: DatabaseReference = database.getReference("Team 1/Race 1/prerace/avg_lap_time")
+    val currentPositionRef: DatabaseReference = database.getReference("testrace/032677/Driver Name/raceVariables/Position")
 
     var currentPosition by remember { mutableStateOf("") }
 
@@ -75,11 +81,10 @@ fun CurrentPosition() {
         })
     }
 
-    Text(text = "Current Position: $currentPosition", style = MaterialTheme.typography.h2)
+    Text(text = "Current Position: $currentPosition",
+        style = MaterialTheme.typography.h3,
+        color = BrightWhite)
 }
 
-@Preview
-@Composable
-fun PreviewCurrentPosition() {
-    CurrentPosition()
-}
+
+

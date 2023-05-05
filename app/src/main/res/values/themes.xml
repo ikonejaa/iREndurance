@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.IrKotlin" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">@color/DarkGrey</item>
+        <item name="android:colorPrimary">@color/DarkGrey</item>
+        <item name="android:colorPrimaryDark">@color/BrightRed3</item>
+        <item name="android:colorAccent">@color/AccentYellow</item>
+        <item name="android:textColorPrimary">@color/OffWhite</item>
+        <item name="android:textColorSecondary">@color/OceanBlue2</item>
+        <item name="android:textColorHint">@color/OceanBlue3</item>
+        <item name="android:windowBackground">@color/OffWhite</item>
+        <item name="android:colorBackground">@color/DarkGrey</item>
     </style>
 </resources>
